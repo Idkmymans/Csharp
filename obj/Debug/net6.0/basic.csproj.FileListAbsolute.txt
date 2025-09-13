@@ -1,0 +1,14 @@
+D:\pranaya\coding projects\c#\obj\Debug\net6.0\basic.GeneratedMSBuildEditorConfig.editorconfig
+D:\pranaya\coding projects\c#\obj\Debug\net6.0\basic.AssemblyInfoInputs.cache
+D:\pranaya\coding projects\c#\obj\Debug\net6.0\basic.AssemblyInfo.cs
+D:\pranaya\coding projects\c#\obj\Debug\net6.0\basic.csproj.CoreCompileInputs.cache
+D:\pranaya\coding projects\c#\bin\Debug\net6.0\basic.exe
+D:\pranaya\coding projects\c#\bin\Debug\net6.0\basic.deps.json
+D:\pranaya\coding projects\c#\bin\Debug\net6.0\basic.runtimeconfig.json
+D:\pranaya\coding projects\c#\bin\Debug\net6.0\basic.dll
+D:\pranaya\coding projects\c#\bin\Debug\net6.0\basic.pdb
+D:\pranaya\coding projects\c#\obj\Debug\net6.0\basic.dll
+D:\pranaya\coding projects\c#\obj\Debug\net6.0\refint\basic.dll
+D:\pranaya\coding projects\c#\obj\Debug\net6.0\basic.pdb
+D:\pranaya\coding projects\c#\obj\Debug\net6.0\basic.genruntimeconfig.cache
+D:\pranaya\coding projects\c#\obj\Debug\net6.0\ref\basic.dll
