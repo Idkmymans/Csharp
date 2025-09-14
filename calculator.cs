@@ -49,14 +49,15 @@ class Idk
                     }
                     op = "/";
                     break;
-
+                
                 default:
                     Console.WriteLine("Invalid choice");
                     continue;
             }
-
-            h.Add($"{a} {op} {b} = {r}");
-
+            if (c >= 1 && c <= 4 && !(c == 4 && b == 0))
+            {
+                h.Add($"{a} {op} {b} = {r}");
+            }
             Console.WriteLine("Show history? (y/n): ");
             string u = Console.ReadLine();
             if (u == "y") {

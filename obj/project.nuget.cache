@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WaOIXr5Sh/w=",
+  "dgSpecHash": "1sNHHWk+m7M=",
   "success": true,
-  "projectFilePath": "D:\\pranaya\\coding projects\\c#\\basic.csproj",
+  "projectFilePath": "d:\\pranaya\\coding projects\\Csharp\\basic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
