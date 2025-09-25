@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Idk
 {
-    static void Main()
+    public static void Idks()
     {
         float a, b, r = 0;
         int c;
