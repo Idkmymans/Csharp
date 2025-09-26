@@ -54,7 +54,7 @@ class calculator
 
     class Program
     {
-    public static void Main()
+    public static void Idk()
     {
         calculator calc = new calculator();
 
