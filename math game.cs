@@ -1,33 +1,38 @@
 using System;
 using System.Collections;
+using System.ComponentModel.DataAnnotations;
 
 class Mathgame
 {
-    static void Main(string[] args)
+    private int diff;
+    private int life;
+    private int score;
+    private int maxnum;
+    private Random random;
+
+    public Mathgame(int diff) // Constructor takes diff from main
     {
-        Console.WriteLine("===Math Game===");
+        random = new Random();
+        this.diff = diff;
 
-        Console.WriteLine("You have 3 lives. For each correct answer, you earn a point. For each wrong answer, you lose a life.");
-        Console.WriteLine("choose your difficulty: \n 1. easy \n 2. medium \n 3. hard");
+        if (diff == 1) { life = 5; maxnum = 15; }
+        else if (diff == 2) { life = 3; maxnum = 70; }
+        else { life = 1; maxnum = 400; }
 
-        int diff;
-        while (!int.TryParse(Console.ReadLine(), out diff) || diff < 1 || diff > 3)
-        {
-            Console.WriteLine("Invalid input. Please enter 1, 2, or 3.");
-        }
-
-        Start(diff);
+        score = 0;
     }
 
-    static void Start(int diff)
+    public void Start()
     {
-        Random random = new Random();
+        while (life > 0)
+        {
+            PlayRound();
+        }
+        Console.WriteLine($"Game Over! Your final score is: {score}");
+    }
 
-        int life = diff == 1 ? 5 : diff == 2 ? 3 : 1;//if(diff==1){life=5}else if(diff==2){life=3}else{life=1}
-        int maxnum = diff == 1 ? 15 : diff == 2 ? 50 : 100;
-
-        int score = 0;
-
+    private void PlayRound()
+    {
         while (life > 0)
         {
             int num1 = random.Next(1, maxnum + 1);
@@ -85,7 +90,25 @@ class Mathgame
                 Console.WriteLine("Please enter a valid number.");
             }
         }
-
-        Console.WriteLine($"game over! Final Score: {score}");
     }
+}
+class Execution{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("===Math Game===");
+
+        Console.WriteLine("You have 3 lives. For each correct answer, you earn a point. For each wrong answer, you lose a life.");
+        Console.WriteLine("choose your difficulty: \n 1. easy \n 2. medium \n 3. hard");
+
+        int diff;
+        while (!int.TryParse(Console.ReadLine(), out diff) || diff < 1 || diff > 3)
+        {
+            Console.WriteLine("Invalid input. Please enter 1, 2, or 3.");
+        }
+
+        Mathgame game = new Mathgame(diff);
+        game.Start();
+    }
+
+    
 }
