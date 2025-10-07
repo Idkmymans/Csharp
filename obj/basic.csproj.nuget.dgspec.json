@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\pranaya\\coding projects\\Csharp\\basic.csproj": {}
+    "D:\\pranaya\\coding projects\\Csharp\\basic.csproj": {}
   },
   "projects": {
-    "d:\\pranaya\\coding projects\\Csharp\\basic.csproj": {
+    "D:\\pranaya\\coding projects\\Csharp\\basic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\pranaya\\coding projects\\Csharp\\basic.csproj",
+        "projectUniqueName": "D:\\pranaya\\coding projects\\Csharp\\basic.csproj",
         "projectName": "basic",
-        "projectPath": "d:\\pranaya\\coding projects\\Csharp\\basic.csproj",
+        "projectPath": "D:\\pranaya\\coding projects\\Csharp\\basic.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "d:\\pranaya\\coding projects\\Csharp\\obj\\",
+        "outputPath": "D:\\pranaya\\coding projects\\Csharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
